@@ -5,12 +5,8 @@ function Invader(x, y){
     this.size = 50;
     this.acc = 1;
     this.bullets = [];
-
-
-    // let r = random(255);
-    // let g = random(255);
-    // let b = random(255); 
-    let img = loadImage('assets/invader.png');
+    
+    let img = loadImage('invader.png');
 
     this.show = function(){
         image(img, this.x - this.size / 2, this.y, this.size, this.size);
