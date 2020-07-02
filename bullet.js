@@ -3,7 +3,7 @@ function Bullet(x, y) {
     this.y = y;
     this.size = 20;
 
-    let img = loadImage('assets/rocket.png');
+    let img = loadImage('rocket.png');
     this.show = function () {
         image(img, this.x - this.size / 2, this.y, this.size, this.size);
 
