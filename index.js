@@ -4,7 +4,7 @@ let bullets = [];
 let invaders = [];
 
 function preload(){
-    bg = loadImage('assets/space.jpg');
+    bg = loadImage('space.jpg');
 }
 
 function setup() {
