@@ -3,7 +3,7 @@ function Spaceship(){
     this.x = width / 2;
     this.y = 0.85 * height;
     this.size = 80;
-    let img = loadImage('assets/spaceship.png');
+    let img = loadImage('spaceship.png');
 
     this.show = function(){
         image(img, this.x - this.size / 2, this.y, this.size, this.size);
